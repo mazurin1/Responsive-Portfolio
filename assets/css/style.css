@@ -1,0 +1,129 @@
+#container {
+    width: 960px; 
+    margin: 0 auto;
+    position: relative;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+li {
+    display: inline;
+  }
+
+.About {
+  padding: 15px;
+  margin: 0px 0px;
+  font-size: larger;
+  font-family: monospace;
+  color: #99004d;
+  
+}
+
+.Portfolio {
+  padding: 15px;
+  margin: 0px 0px;
+  font-size: larger;
+  font-family: monospace;
+  color: #99004d;
+}
+
+.Contact {
+  padding: 15px;
+  margin: 0px 0px;
+  font-size: larger;
+  font-family: monospace;
+  color: #99004d;
+}
+
+.intro {
+    font-size: 12pt;
+    font-family: 'Lato', sans-serif;
+    background: pink;
+    padding: 10px
+}
+
+#bio-image {
+  width: 250px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  float: left;
+  padding: 8px 8px;
+  border-style: double;
+  position: relative;
+}
+
+.name {
+    color: white;
+    background: #99004d;
+    position: relative;
+    width: 100%;
+    padding-left: 5px;
+}
+
+.myportfolio {
+position: relative;
+float: left;
+padding: 5px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 4px solid #99004d;
+  margin: auto;
+  background: white;
+  margin-bottom: -3px;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 980px) {
+  
+  .myportfolio {
+    float: left;
+    width: 35%;
+    margin-bottom: 50px;
+    margin-top: 25px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .myportfolio {
+    float: left;
+    width: 35%;
+    margin-bottom: 50px;
+    margin-top: 25px;
+  }
+
+  .intro {
+      float: left;
+      position: relative;
+      width: 50%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+  .myportfolio {
+    float: left;
+    width: 50%;
+    margin-bottom: 50px;
+    margin-top: 25px;
+  }
+
+  .intro {
+    float: left;
+    position: relative;
+    width: 50%;
+  }
+
+  #topnav {
+    position: static;
+  }
+}
